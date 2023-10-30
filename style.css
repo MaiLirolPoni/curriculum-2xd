@@ -1,0 +1,177 @@
+.dp{
+    display: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    text-shadow: 5px 7px 5px rgb(0, 0, 0);
+}
+
+.datos{
+    display:flex;
+    border: 5px rgb(255, 61, 61);
+    border-style:groove;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: rgba(107, 95, 95, 0.2);
+    
+}
+.datos h2{
+    font-size: 25px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+.datos h3{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-left: -50px;
+    margin-top: 50px;
+    font-family: Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.profile{
+    position: absolute;
+    margin-top: -250px;
+    margin-left:1000px;
+    margin-right: 50px;
+}
+
+.skills{
+    position: absolute;
+    margin-top: -170px;
+    margin-left:500px;
+    margin-right: 450px;
+}
+
+
+.profile-container, .skills-container{
+    font-family: Arial,Helvetica, sans-serif;
+    font-weight: 4px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+    
+}
+
+.page-p{
+    position: absolute;
+    text-align: center;
+    margin-top: -480px;
+    left: 200px;
+}
+
+.page{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+.page:hover{
+    color: #e00f0f;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.landscape{
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 240px;
+    height: 230px;
+    border:10px ridge #d40a0a;
+}
+
+.arrow-p{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1200px;
+}
+
+.arrowb-p{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1200px;
+}
+
+.arrow{
+    width: 80px; 
+    height: 80px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-shadow: 5px 7px 5px rgb(0, 0, 0);
+}
+
+.list{
+    font-family: Verdana;
+    font-weight: 4px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: 2px solid #e75e5e;
+    width: 30%; /* Cambiado el ancho al 30% */
+    position: absolute; /* Añadido posicionamiento absoluto */
+    top: 150px; /* Anclado arriba */
+    right: 50px; /* Anclado a la derecha */
+    margin: 10px; /* Añadido un pequeño margen */
+    border-radius: 10px;
+}
+
+th, td {
+    border: 2px solid #e75e5e;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+th {
+    background-color: #e75e5e;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+tr:nth-child(2) {
+
+    background-color: rgb(224, 84, 84, 0.3);
+
+  }
+
+  
+
+body{
+   background-image: url(background.jpg);          
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
